@@ -8,11 +8,15 @@
     <title>Count-down_app</title>
 </head>
 <body>
-    <div class="main">
+    <div class="main" id="countdown">
+        <!-- add music here  -->
+        <audio id="musics" src="music/aud1.wav"></audio>
+
+
         <div class="overlay">
-            <div class="title">WE ARE COMMING</div>
+            <div class="title" id="time">WE ARE COMMING</div>
             <div class="title" id="end-date">22 Jan 2023 12 PM  </div>
-            <div class="col">
+            <div class="col" id="col">
                 <div class="centre"> <input type="text" readonly value="0"><br>
                 <label class="label" for="">Days</label>
              </div>
